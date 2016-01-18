@@ -1,0 +1,47 @@
+<!doctype html>
+<html lan='en'>
+<head>
+	<meta charset="UTF-8">
+	<title>Tic-tac-toe</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
+
+<div id="galactic-battleground">
+  <div class="span1 new_span">
+    <div class="container">
+      <div class="span1 scoreboard">
+      	<h2>SCOREBOARD</h2>
+        <div class="scoreboard input-prepend input-append">
+          <div class="score-container">
+          	<span class="add-on players"><h3>Yoda:</h3><h3 id="yodaScore" class="wins add-on">0</h3></span>
+        <div class="input-prepend input-append">
+          <span class="add-on players"><h3>Darth Vader: </h3><h3 id="darthScore" class="wins add-on">0</h3></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+	    <ul class="row" id="gameboard">
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square1"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square2"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square3"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square4"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square5"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square6"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square7"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square8"></li>
+	      <li class="btn square-img"><img src="images/square.jpg" style="width:100px; height:100px" id="square9"></li>
+	    </ul>
+ 
+   		<div class="play-button"><a href="#" id="reload" class="btn-success btn span1">Play Again</a></div>
+	</div>
+</div>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

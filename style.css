@@ -1,0 +1,145 @@
+
+body {
+    background: url("images/galaxy.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+
+#galactic-battleground {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 230px;
+
+}
+.container {
+	background-color: rgba(0,0,0,.2);
+	width: 408px;
+    margin: 0 auto;
+    padding-left: 38px;
+}
+
+#galactic-battleground h2 {
+	text-align: center; 
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #87CEFA;
+	margin-bottom: 3px;
+}
+
+
+#gameboard {
+	width: 350px;
+	padding:0; 
+	clear:both;
+	margin: 0 auto;
+}
+
+#gameboard li {
+	list-style: none;
+	display: inline-block;
+
+}
+
+.darthVader {
+	background-image: url("images/darth-vader.jpg");
+	width: 100px;
+	height: 100px;
+
+}
+
+.yoda {
+	background-image: url("images/yoda.jpg");
+	width: 100px;
+	height: 100px;
+}
+.scoreboard.input-prepend.input-append {
+	width: 300px;
+}
+
+.input-append .players {
+	width:52px
+}
+
+.players h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 0;
+}
+.scoreboard h2 {
+	margin-top: 48px;
+}
+#yodaScore h3 {
+	color: #98FB98;
+
+}
+
+.wins.add-on h3 {
+	float: right;
+}
+.input-append .wins h3 {
+	color: white; 
+	padding-left: 10px;
+	width: 40px;
+	float: right;
+}
+
+
+.score-container {
+	margin-left: 20px;
+}
+.play-button {
+	border-radius: 3px;
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	margin-top: 20px;
+	padding-left: 124px;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFA500;
+	font-weight: bold;
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.5); 
+	padding: 7px;
+	border-radius: 3px;
+}
+
+#galactic-battleground #reset { 
+	font-family: Arial, Helvetica, sans-serif;
+	width:204px;
+	font-size:20px; 
+	text-align: center; 
+	text-transform: uppercase; 
+	padding:5px 10px; 
+	color: black; 
+	float: left; 
+	clear: both; 
+	cursor: pointer; 
+	outline:none; 
+}
+
+#galactic-battleground .disarm {
+	background-image: none;
+	width: 100px;
+	height: 100px;}
+
+.input-prepend span.pre_text {
+	width:55px
+}
+
+.input-prepend .span1 {
+	width:350px
+}
+
+.input-prepend {
+	margin-bottom:10px
+}
+
