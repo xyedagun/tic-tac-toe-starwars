@@ -9,7 +9,7 @@ body {
 #galactic-battleground {
 	width: 500px;
 	margin: 0 auto;
-	padding-top: 230px;
+	padding-top: 187px;
 
 }
 .container {
@@ -19,12 +19,18 @@ body {
     padding-left: 38px;
 }
 
+/********  SCOREBOARD  *************/
+
 #galactic-battleground h2 {
 	text-align: center; 
-	font-size: 28px;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #87CEFA;
+	font-size: 1.7em;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
 	margin-bottom: 3px;
+	margin-left: -43px;
+	font-weight: bold;
+	border-bottom: solid white;
+	line-height: 42px;
 }
 
 
@@ -34,7 +40,7 @@ body {
 	clear:both;
 	margin: 0 auto;
 }
-
+/*********************/
 #gameboard li {
 	list-style: none;
 	display: inline-block;
@@ -62,20 +68,14 @@ body {
 }
 
 .players h3 {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
 	color: white;
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
+	display: inline;
 	margin-top: 0;
 }
 .scoreboard h2 {
 	margin-top: 48px;
-}
-#yodaScore h3 {
-	color: #98FB98;
-
 }
 
 .wins.add-on h3 {
@@ -90,7 +90,9 @@ body {
 
 
 .score-container {
-	margin-left: 20px;
+	width: 335px;
+    margin-left: 32px;
+    margin-top: 20px;
 }
 .play-button {
 	border-radius: 3px;
@@ -100,10 +102,11 @@ body {
 	margin-top: 20px;
 	padding-left: 124px;
 }
+
 a {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Orbitron', sans-serif;
 	font-size: 20px;
-	color: #FFA500;
+	color: #fee53f;
 	font-weight: bold;
 	margin: 0 auto;
 	text-decoration: none;
@@ -113,11 +116,7 @@ a {
 }
 
 #galactic-battleground #reset { 
-	font-family: Arial, Helvetica, sans-serif;
 	width:204px;
-	font-size:20px; 
-	text-align: center; 
-	text-transform: uppercase; 
 	padding:5px 10px; 
 	color: black; 
 	float: left; 
@@ -129,17 +128,18 @@ a {
 #galactic-battleground .disarm {
 	background-image: none;
 	width: 100px;
-	height: 100px;}
+	height: 100px;
+}
 
 .input-prepend span.pre_text {
-	width:55px
+	width:55px;
 }
 
 .input-prepend .span1 {
-	width:350px
+	width:350px;
 }
 
 .input-prepend {
-	margin-bottom:10px
+	margin-bottom:20px;
 }
 
