@@ -2,16 +2,15 @@
 ## Star Wars Edition
 =======
 
-##Tic-tac-toe game
+## Tic Tac Toe Game
 
 The goals of this project:
 * Use Javascript
-* Game for two players
+* Design game for two players
 * Play multiple games
-* Keep track the number of wins
+* Keep track of the number of wins
 
 
-HEAD
 ## Main Page
 ![Tic tac toe main page](images/main_page.jpg)
 
@@ -32,7 +31,7 @@ HEAD
 * CSS
 * HTML
 
-HEAD
+
 =======
 * The source code is located on [github](https://github.com/xyedagun/tic-tac-toe-starwars)
 
