@@ -1,10 +1,8 @@
 # Tic Tac Toe 
 ## Star Wars Edition
-
-HEAD
-Tic-tac-toe game
 =======
 
+##Tic-tac-toe game
 
 The goals of this project:
 * Use Javascript
